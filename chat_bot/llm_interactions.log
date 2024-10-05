@@ -1123,3 +1123,8 @@
 2024-10-04 10:40:51 - Cost of this interaction: $0.000054
 2024-10-04 10:40:51 - Total price so far: $0.000093
 2024-10-04 10:40:51 - 127.0.0.1 - - [04/Oct/2024 10:40:51] "POST /chat HTTP/1.1" 200 -
+2024-10-05 12:05:39 - User: What is the capital of France?
+2024-10-05 12:05:40 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-05 12:05:40 - LLM: The capital of France is Paris.
+2024-10-05 12:05:40 - Cost of this interaction: $0.000008
+2024-10-05 12:05:40 - Total price so far: $0.000008
