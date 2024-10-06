@@ -1,0 +1,11 @@
+PLAN:
+1. finalize the script of the current presentation
+ - go through all notebooks & export requirements
+ - script the whole thing
+
+2. solve the secretes management
+ - change virtualenv from .env to .venv
+ - store secrets in .env
+ - use dotenv to read environment vars in (replacing load_secrets.py)
+
+3. figure out the use of sdmx1 to substitute my bespoke solution... (include some of that logic in the notebooks)

@@ -1,0 +1,1762 @@
+[
+    [
+        "The DataFrame's name",
+        "Expenditure on educational institutions per full-time equivalent student"
+    ],
+    [
+        "Expenditure on educational institutions per full-time equivalent student",
+        "The DataFrame's name"
+    ],
+    [
+        "The DataFrame's description",
+        "This dataset contains data on expenditure per full-time equivalent student and per full-time equivalent student as a percentage of GPD per capita. The default table displays data for 2020 in current USD PPP and as a percentage of GDP per capita, from all expenditure sources, and unfiltered by type of expenditure. The selection can be changed to display data: by year, by source of expenditure, by destination of expenditure and by type of expenditure. Please note that some categories are mutually exclusive. </p><p>For more information, please consult <a href=\"https://www.oecd-ilibrary.org/sites/e13bef63-en/1/3/4/index.html?itemId=%20/content/publication/e13bef63-en&_csp_=a4f4b3d408c9dd70d167f10de61b8717&itemIGO=oecd&itemContentType=book\"><i>Education at a Glance 2023</i></a>. Additional details regarding the methodology used, references to the sources, and specific notes for each country can be found in <a href=\"https://www.oecd-ilibrary.org/sites/301fa18e-en/index.html?itemId=/content/component/301fa18e-en\"><i>Education at a Glance 2023 Sources, Methodologies and Technical Notes</i></a>."
+    ],
+    [
+        "This dataset contains data on expenditure per full-time equivalent student and per full-time equivalent student as a percentage of GPD per capita. The default table displays data for 2020 in current USD PPP and as a percentage of GDP per capita, from all expenditure sources, and unfiltered by type of expenditure. The selection can be changed to display data: by year, by source of expenditure, by destination of expenditure and by type of expenditure. Please note that some categories are mutually exclusive. </p><p>For more information, please consult <a href=\"https://www.oecd-ilibrary.org/sites/e13bef63-en/1/3/4/index.html?itemId=%20/content/publication/e13bef63-en&_csp_=a4f4b3d408c9dd70d167f10de61b8717&itemIGO=oecd&itemContentType=book\"><i>Education at a Glance 2023</i></a>. Additional details regarding the methodology used, references to the sources, and specific notes for each country can be found in <a href=\"https://www.oecd-ilibrary.org/sites/301fa18e-en/index.html?itemId=/content/component/301fa18e-en\"><i>Education at a Glance 2023 Sources, Methodologies and Technical Notes</i></a>.",
+        "The DataFrame's description"
+    ],
+    [
+        "MEASURE",
+        "The name that corresponds to the dimension code: 'MEASURE' is Measure."
+    ],
+    [
+        "Measure",
+        "The name that corresponds to the dimension code: 'MEASURE' is Measure."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'MEASURE'?",
+        "The name that corresponds to the dimension code: 'MEASURE' is Measure."
+    ],
+    [
+        "What is the dimension code for 'Measure'?",
+        "The name that corresponds to the dimension code: 'MEASURE' is Measure."
+    ],
+    [
+        "REF_AREA",
+        "The name that corresponds to the dimension code: 'REF_AREA' is Reference area."
+    ],
+    [
+        "Reference area",
+        "The name that corresponds to the dimension code: 'REF_AREA' is Reference area."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'REF_AREA'?",
+        "The name that corresponds to the dimension code: 'REF_AREA' is Reference area."
+    ],
+    [
+        "What is the dimension code for 'Reference area'?",
+        "The name that corresponds to the dimension code: 'REF_AREA' is Reference area."
+    ],
+    [
+        "EDUCATION_LEV",
+        "The name that corresponds to the dimension code: 'EDUCATION_LEV' is Education level."
+    ],
+    [
+        "Education level",
+        "The name that corresponds to the dimension code: 'EDUCATION_LEV' is Education level."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'EDUCATION_LEV'?",
+        "The name that corresponds to the dimension code: 'EDUCATION_LEV' is Education level."
+    ],
+    [
+        "What is the dimension code for 'Education level'?",
+        "The name that corresponds to the dimension code: 'EDUCATION_LEV' is Education level."
+    ],
+    [
+        "INTENSITY",
+        "The name that corresponds to the dimension code: 'INTENSITY' is Intensity."
+    ],
+    [
+        "Intensity",
+        "The name that corresponds to the dimension code: 'INTENSITY' is Intensity."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'INTENSITY'?",
+        "The name that corresponds to the dimension code: 'INTENSITY' is Intensity."
+    ],
+    [
+        "What is the dimension code for 'Intensity'?",
+        "The name that corresponds to the dimension code: 'INTENSITY' is Intensity."
+    ],
+    [
+        "EXP_SOURCE",
+        "The name that corresponds to the dimension code: 'EXP_SOURCE' is Financing source."
+    ],
+    [
+        "Financing source",
+        "The name that corresponds to the dimension code: 'EXP_SOURCE' is Financing source."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'EXP_SOURCE'?",
+        "The name that corresponds to the dimension code: 'EXP_SOURCE' is Financing source."
+    ],
+    [
+        "What is the dimension code for 'Financing source'?",
+        "The name that corresponds to the dimension code: 'EXP_SOURCE' is Financing source."
+    ],
+    [
+        "EXP_DESTINATION",
+        "The name that corresponds to the dimension code: 'EXP_DESTINATION' is Destination of expenditure."
+    ],
+    [
+        "Destination of expenditure",
+        "The name that corresponds to the dimension code: 'EXP_DESTINATION' is Destination of expenditure."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'EXP_DESTINATION'?",
+        "The name that corresponds to the dimension code: 'EXP_DESTINATION' is Destination of expenditure."
+    ],
+    [
+        "What is the dimension code for 'Destination of expenditure'?",
+        "The name that corresponds to the dimension code: 'EXP_DESTINATION' is Destination of expenditure."
+    ],
+    [
+        "EXPENDITURE_TYPE",
+        "The name that corresponds to the dimension code: 'EXPENDITURE_TYPE' is Type of expenditure."
+    ],
+    [
+        "Type of expenditure",
+        "The name that corresponds to the dimension code: 'EXPENDITURE_TYPE' is Type of expenditure."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'EXPENDITURE_TYPE'?",
+        "The name that corresponds to the dimension code: 'EXPENDITURE_TYPE' is Type of expenditure."
+    ],
+    [
+        "What is the dimension code for 'Type of expenditure'?",
+        "The name that corresponds to the dimension code: 'EXPENDITURE_TYPE' is Type of expenditure."
+    ],
+    [
+        "INST_TYPE_EDU",
+        "The name that corresponds to the dimension code: 'INST_TYPE_EDU' is Type of educational institution."
+    ],
+    [
+        "Type of educational institution",
+        "The name that corresponds to the dimension code: 'INST_TYPE_EDU' is Type of educational institution."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'INST_TYPE_EDU'?",
+        "The name that corresponds to the dimension code: 'INST_TYPE_EDU' is Type of educational institution."
+    ],
+    [
+        "What is the dimension code for 'Type of educational institution'?",
+        "The name that corresponds to the dimension code: 'INST_TYPE_EDU' is Type of educational institution."
+    ],
+    [
+        "PRICE_BASE",
+        "The name that corresponds to the dimension code: 'PRICE_BASE' is Price base."
+    ],
+    [
+        "Price base",
+        "The name that corresponds to the dimension code: 'PRICE_BASE' is Price base."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'PRICE_BASE'?",
+        "The name that corresponds to the dimension code: 'PRICE_BASE' is Price base."
+    ],
+    [
+        "What is the dimension code for 'Price base'?",
+        "The name that corresponds to the dimension code: 'PRICE_BASE' is Price base."
+    ],
+    [
+        "BASE_PER",
+        "The name that corresponds to the dimension code: 'BASE_PER' is Base period."
+    ],
+    [
+        "Base period",
+        "The name that corresponds to the dimension code: 'BASE_PER' is Base period."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'BASE_PER'?",
+        "The name that corresponds to the dimension code: 'BASE_PER' is Base period."
+    ],
+    [
+        "What is the dimension code for 'Base period'?",
+        "The name that corresponds to the dimension code: 'BASE_PER' is Base period."
+    ],
+    [
+        "TIME_PERIOD",
+        "The name that corresponds to the dimension code: 'TIME_PERIOD' is Time period."
+    ],
+    [
+        "Time period",
+        "The name that corresponds to the dimension code: 'TIME_PERIOD' is Time period."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'TIME_PERIOD'?",
+        "The name that corresponds to the dimension code: 'TIME_PERIOD' is Time period."
+    ],
+    [
+        "What is the dimension code for 'Time period'?",
+        "The name that corresponds to the dimension code: 'TIME_PERIOD' is Time period."
+    ],
+    [
+        "OBS_VALUE",
+        "The name that corresponds to the dimension code: 'OBS_VALUE' is Observation value."
+    ],
+    [
+        "Observation value",
+        "The name that corresponds to the dimension code: 'OBS_VALUE' is Observation value."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'OBS_VALUE'?",
+        "The name that corresponds to the dimension code: 'OBS_VALUE' is Observation value."
+    ],
+    [
+        "What is the dimension code for 'Observation value'?",
+        "The name that corresponds to the dimension code: 'OBS_VALUE' is Observation value."
+    ],
+    [
+        "OBS_STATUS",
+        "The name that corresponds to the dimension code: 'OBS_STATUS' is Observation status."
+    ],
+    [
+        "Observation status",
+        "The name that corresponds to the dimension code: 'OBS_STATUS' is Observation status."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'OBS_STATUS'?",
+        "The name that corresponds to the dimension code: 'OBS_STATUS' is Observation status."
+    ],
+    [
+        "What is the dimension code for 'Observation status'?",
+        "The name that corresponds to the dimension code: 'OBS_STATUS' is Observation status."
+    ],
+    [
+        "UNIT_MULT",
+        "The name that corresponds to the dimension code: 'UNIT_MULT' is Unit multiplier."
+    ],
+    [
+        "Unit multiplier",
+        "The name that corresponds to the dimension code: 'UNIT_MULT' is Unit multiplier."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'UNIT_MULT'?",
+        "The name that corresponds to the dimension code: 'UNIT_MULT' is Unit multiplier."
+    ],
+    [
+        "What is the dimension code for 'Unit multiplier'?",
+        "The name that corresponds to the dimension code: 'UNIT_MULT' is Unit multiplier."
+    ],
+    [
+        "UNIT_MEASURE",
+        "The name that corresponds to the dimension code: 'UNIT_MEASURE' is Unit of measure."
+    ],
+    [
+        "Unit of measure",
+        "The name that corresponds to the dimension code: 'UNIT_MEASURE' is Unit of measure."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'UNIT_MEASURE'?",
+        "The name that corresponds to the dimension code: 'UNIT_MEASURE' is Unit of measure."
+    ],
+    [
+        "What is the dimension code for 'Unit of measure'?",
+        "The name that corresponds to the dimension code: 'UNIT_MEASURE' is Unit of measure."
+    ],
+    [
+        "DECIMALS",
+        "The name that corresponds to the dimension code: 'DECIMALS' is Decimals."
+    ],
+    [
+        "Decimals",
+        "The name that corresponds to the dimension code: 'DECIMALS' is Decimals."
+    ],
+    [
+        "What name that corresponds to the dimension code: 'DECIMALS'?",
+        "The name that corresponds to the dimension code: 'DECIMALS' is Decimals."
+    ],
+    [
+        "What is the dimension code for 'Decimals'?",
+        "The name that corresponds to the dimension code: 'DECIMALS' is Decimals."
+    ],
+    [
+        "FIN_PERSTUD",
+        "The English name of the code 'FIN_PERSTUD' within the code list ID 'MEASURE' is 'Expenditure per full-time equivalent student'."
+    ],
+    [
+        "Expenditure per full-time equivalent student",
+        "The English name of the code 'FIN_PERSTUD' within the code list ID 'MEASURE' is 'Expenditure per full-time equivalent student'."
+    ],
+    [
+        "What is the English name of the code 'FIN_PERSTUD' within the code list ID 'MEASURE'?",
+        "The English name of the code 'FIN_PERSTUD' within the code list ID 'MEASURE' is 'Expenditure per full-time equivalent student'."
+    ],
+    [
+        "What is the code for 'Expenditure per full-time equivalent student' within the code list ID 'MEASURE'?",
+        "The English name of the code 'FIN_PERSTUD' within the code list ID 'MEASURE' is 'Expenditure per full-time equivalent student'."
+    ],
+    [
+        "ARG",
+        "The English name of the code 'ARG' within the code list ID 'REF_AREA' is 'Argentina'."
+    ],
+    [
+        "Argentina",
+        "The English name of the code 'ARG' within the code list ID 'REF_AREA' is 'Argentina'."
+    ],
+    [
+        "What is the English name of the code 'ARG' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ARG' within the code list ID 'REF_AREA' is 'Argentina'."
+    ],
+    [
+        "What is the code for 'Argentina' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ARG' within the code list ID 'REF_AREA' is 'Argentina'."
+    ],
+    [
+        "AUS",
+        "The English name of the code 'AUS' within the code list ID 'REF_AREA' is 'Australia'."
+    ],
+    [
+        "Australia",
+        "The English name of the code 'AUS' within the code list ID 'REF_AREA' is 'Australia'."
+    ],
+    [
+        "What is the English name of the code 'AUS' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'AUS' within the code list ID 'REF_AREA' is 'Australia'."
+    ],
+    [
+        "What is the code for 'Australia' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'AUS' within the code list ID 'REF_AREA' is 'Australia'."
+    ],
+    [
+        "AUT",
+        "The English name of the code 'AUT' within the code list ID 'REF_AREA' is 'Austria'."
+    ],
+    [
+        "Austria",
+        "The English name of the code 'AUT' within the code list ID 'REF_AREA' is 'Austria'."
+    ],
+    [
+        "What is the English name of the code 'AUT' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'AUT' within the code list ID 'REF_AREA' is 'Austria'."
+    ],
+    [
+        "What is the code for 'Austria' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'AUT' within the code list ID 'REF_AREA' is 'Austria'."
+    ],
+    [
+        "BEL",
+        "The English name of the code 'BEL' within the code list ID 'REF_AREA' is 'Belgium'."
+    ],
+    [
+        "Belgium",
+        "The English name of the code 'BEL' within the code list ID 'REF_AREA' is 'Belgium'."
+    ],
+    [
+        "What is the English name of the code 'BEL' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'BEL' within the code list ID 'REF_AREA' is 'Belgium'."
+    ],
+    [
+        "What is the code for 'Belgium' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'BEL' within the code list ID 'REF_AREA' is 'Belgium'."
+    ],
+    [
+        "BGR",
+        "The English name of the code 'BGR' within the code list ID 'REF_AREA' is 'Bulgaria'."
+    ],
+    [
+        "Bulgaria",
+        "The English name of the code 'BGR' within the code list ID 'REF_AREA' is 'Bulgaria'."
+    ],
+    [
+        "What is the English name of the code 'BGR' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'BGR' within the code list ID 'REF_AREA' is 'Bulgaria'."
+    ],
+    [
+        "What is the code for 'Bulgaria' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'BGR' within the code list ID 'REF_AREA' is 'Bulgaria'."
+    ],
+    [
+        "BRA",
+        "The English name of the code 'BRA' within the code list ID 'REF_AREA' is 'Brazil'."
+    ],
+    [
+        "Brazil",
+        "The English name of the code 'BRA' within the code list ID 'REF_AREA' is 'Brazil'."
+    ],
+    [
+        "What is the English name of the code 'BRA' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'BRA' within the code list ID 'REF_AREA' is 'Brazil'."
+    ],
+    [
+        "What is the code for 'Brazil' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'BRA' within the code list ID 'REF_AREA' is 'Brazil'."
+    ],
+    [
+        "CAN",
+        "The English name of the code 'CAN' within the code list ID 'REF_AREA' is 'Canada'."
+    ],
+    [
+        "Canada",
+        "The English name of the code 'CAN' within the code list ID 'REF_AREA' is 'Canada'."
+    ],
+    [
+        "What is the English name of the code 'CAN' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CAN' within the code list ID 'REF_AREA' is 'Canada'."
+    ],
+    [
+        "What is the code for 'Canada' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CAN' within the code list ID 'REF_AREA' is 'Canada'."
+    ],
+    [
+        "CHE",
+        "The English name of the code 'CHE' within the code list ID 'REF_AREA' is 'Switzerland'."
+    ],
+    [
+        "Switzerland",
+        "The English name of the code 'CHE' within the code list ID 'REF_AREA' is 'Switzerland'."
+    ],
+    [
+        "What is the English name of the code 'CHE' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CHE' within the code list ID 'REF_AREA' is 'Switzerland'."
+    ],
+    [
+        "What is the code for 'Switzerland' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CHE' within the code list ID 'REF_AREA' is 'Switzerland'."
+    ],
+    [
+        "CHL",
+        "The English name of the code 'CHL' within the code list ID 'REF_AREA' is 'Chile'."
+    ],
+    [
+        "Chile",
+        "The English name of the code 'CHL' within the code list ID 'REF_AREA' is 'Chile'."
+    ],
+    [
+        "What is the English name of the code 'CHL' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CHL' within the code list ID 'REF_AREA' is 'Chile'."
+    ],
+    [
+        "What is the code for 'Chile' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CHL' within the code list ID 'REF_AREA' is 'Chile'."
+    ],
+    [
+        "CHN",
+        "The English name of the code 'CHN' within the code list ID 'REF_AREA' is 'China (People\u2019s Republic of)'."
+    ],
+    [
+        "China (People\u2019s Republic of)",
+        "The English name of the code 'CHN' within the code list ID 'REF_AREA' is 'China (People\u2019s Republic of)'."
+    ],
+    [
+        "What is the English name of the code 'CHN' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CHN' within the code list ID 'REF_AREA' is 'China (People\u2019s Republic of)'."
+    ],
+    [
+        "What is the code for 'China (People\u2019s Republic of)' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CHN' within the code list ID 'REF_AREA' is 'China (People\u2019s Republic of)'."
+    ],
+    [
+        "COL",
+        "The English name of the code 'COL' within the code list ID 'REF_AREA' is 'Colombia'."
+    ],
+    [
+        "Colombia",
+        "The English name of the code 'COL' within the code list ID 'REF_AREA' is 'Colombia'."
+    ],
+    [
+        "What is the English name of the code 'COL' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'COL' within the code list ID 'REF_AREA' is 'Colombia'."
+    ],
+    [
+        "What is the code for 'Colombia' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'COL' within the code list ID 'REF_AREA' is 'Colombia'."
+    ],
+    [
+        "CRI",
+        "The English name of the code 'CRI' within the code list ID 'REF_AREA' is 'Costa Rica'."
+    ],
+    [
+        "Costa Rica",
+        "The English name of the code 'CRI' within the code list ID 'REF_AREA' is 'Costa Rica'."
+    ],
+    [
+        "What is the English name of the code 'CRI' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CRI' within the code list ID 'REF_AREA' is 'Costa Rica'."
+    ],
+    [
+        "What is the code for 'Costa Rica' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CRI' within the code list ID 'REF_AREA' is 'Costa Rica'."
+    ],
+    [
+        "CZE",
+        "The English name of the code 'CZE' within the code list ID 'REF_AREA' is 'Czechia'."
+    ],
+    [
+        "Czechia",
+        "The English name of the code 'CZE' within the code list ID 'REF_AREA' is 'Czechia'."
+    ],
+    [
+        "What is the English name of the code 'CZE' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CZE' within the code list ID 'REF_AREA' is 'Czechia'."
+    ],
+    [
+        "What is the code for 'Czechia' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'CZE' within the code list ID 'REF_AREA' is 'Czechia'."
+    ],
+    [
+        "DEU",
+        "The English name of the code 'DEU' within the code list ID 'REF_AREA' is 'Germany'."
+    ],
+    [
+        "Germany",
+        "The English name of the code 'DEU' within the code list ID 'REF_AREA' is 'Germany'."
+    ],
+    [
+        "What is the English name of the code 'DEU' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'DEU' within the code list ID 'REF_AREA' is 'Germany'."
+    ],
+    [
+        "What is the code for 'Germany' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'DEU' within the code list ID 'REF_AREA' is 'Germany'."
+    ],
+    [
+        "DNK",
+        "The English name of the code 'DNK' within the code list ID 'REF_AREA' is 'Denmark'."
+    ],
+    [
+        "Denmark",
+        "The English name of the code 'DNK' within the code list ID 'REF_AREA' is 'Denmark'."
+    ],
+    [
+        "What is the English name of the code 'DNK' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'DNK' within the code list ID 'REF_AREA' is 'Denmark'."
+    ],
+    [
+        "What is the code for 'Denmark' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'DNK' within the code list ID 'REF_AREA' is 'Denmark'."
+    ],
+    [
+        "ESP",
+        "The English name of the code 'ESP' within the code list ID 'REF_AREA' is 'Spain'."
+    ],
+    [
+        "Spain",
+        "The English name of the code 'ESP' within the code list ID 'REF_AREA' is 'Spain'."
+    ],
+    [
+        "What is the English name of the code 'ESP' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ESP' within the code list ID 'REF_AREA' is 'Spain'."
+    ],
+    [
+        "What is the code for 'Spain' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ESP' within the code list ID 'REF_AREA' is 'Spain'."
+    ],
+    [
+        "EST",
+        "The English name of the code 'EST' within the code list ID 'REF_AREA' is 'Estonia'."
+    ],
+    [
+        "Estonia",
+        "The English name of the code 'EST' within the code list ID 'REF_AREA' is 'Estonia'."
+    ],
+    [
+        "What is the English name of the code 'EST' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'EST' within the code list ID 'REF_AREA' is 'Estonia'."
+    ],
+    [
+        "What is the code for 'Estonia' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'EST' within the code list ID 'REF_AREA' is 'Estonia'."
+    ],
+    [
+        "EU25",
+        "The English name of the code 'EU25' within the code list ID 'REF_AREA' is 'European Union (25 countries)'."
+    ],
+    [
+        "European Union (25 countries)",
+        "The English name of the code 'EU25' within the code list ID 'REF_AREA' is 'European Union (25 countries)'."
+    ],
+    [
+        "What is the English name of the code 'EU25' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'EU25' within the code list ID 'REF_AREA' is 'European Union (25 countries)'."
+    ],
+    [
+        "What is the code for 'European Union (25 countries)' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'EU25' within the code list ID 'REF_AREA' is 'European Union (25 countries)'."
+    ],
+    [
+        "FIN",
+        "The English name of the code 'FIN' within the code list ID 'REF_AREA' is 'Finland'."
+    ],
+    [
+        "Finland",
+        "The English name of the code 'FIN' within the code list ID 'REF_AREA' is 'Finland'."
+    ],
+    [
+        "What is the English name of the code 'FIN' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'FIN' within the code list ID 'REF_AREA' is 'Finland'."
+    ],
+    [
+        "What is the code for 'Finland' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'FIN' within the code list ID 'REF_AREA' is 'Finland'."
+    ],
+    [
+        "FRA",
+        "The English name of the code 'FRA' within the code list ID 'REF_AREA' is 'France'."
+    ],
+    [
+        "France",
+        "The English name of the code 'FRA' within the code list ID 'REF_AREA' is 'France'."
+    ],
+    [
+        "What is the English name of the code 'FRA' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'FRA' within the code list ID 'REF_AREA' is 'France'."
+    ],
+    [
+        "What is the code for 'France' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'FRA' within the code list ID 'REF_AREA' is 'France'."
+    ],
+    [
+        "G20",
+        "The English name of the code 'G20' within the code list ID 'REF_AREA' is 'G20'."
+    ],
+    [
+        "G20",
+        "The English name of the code 'G20' within the code list ID 'REF_AREA' is 'G20'."
+    ],
+    [
+        "What is the English name of the code 'G20' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'G20' within the code list ID 'REF_AREA' is 'G20'."
+    ],
+    [
+        "What is the code for 'G20' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'G20' within the code list ID 'REF_AREA' is 'G20'."
+    ],
+    [
+        "GBR",
+        "The English name of the code 'GBR' within the code list ID 'REF_AREA' is 'United Kingdom'."
+    ],
+    [
+        "United Kingdom",
+        "The English name of the code 'GBR' within the code list ID 'REF_AREA' is 'United Kingdom'."
+    ],
+    [
+        "What is the English name of the code 'GBR' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'GBR' within the code list ID 'REF_AREA' is 'United Kingdom'."
+    ],
+    [
+        "What is the code for 'United Kingdom' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'GBR' within the code list ID 'REF_AREA' is 'United Kingdom'."
+    ],
+    [
+        "GRC",
+        "The English name of the code 'GRC' within the code list ID 'REF_AREA' is 'Greece'."
+    ],
+    [
+        "Greece",
+        "The English name of the code 'GRC' within the code list ID 'REF_AREA' is 'Greece'."
+    ],
+    [
+        "What is the English name of the code 'GRC' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'GRC' within the code list ID 'REF_AREA' is 'Greece'."
+    ],
+    [
+        "What is the code for 'Greece' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'GRC' within the code list ID 'REF_AREA' is 'Greece'."
+    ],
+    [
+        "HRV",
+        "The English name of the code 'HRV' within the code list ID 'REF_AREA' is 'Croatia'."
+    ],
+    [
+        "Croatia",
+        "The English name of the code 'HRV' within the code list ID 'REF_AREA' is 'Croatia'."
+    ],
+    [
+        "What is the English name of the code 'HRV' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'HRV' within the code list ID 'REF_AREA' is 'Croatia'."
+    ],
+    [
+        "What is the code for 'Croatia' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'HRV' within the code list ID 'REF_AREA' is 'Croatia'."
+    ],
+    [
+        "HUN",
+        "The English name of the code 'HUN' within the code list ID 'REF_AREA' is 'Hungary'."
+    ],
+    [
+        "Hungary",
+        "The English name of the code 'HUN' within the code list ID 'REF_AREA' is 'Hungary'."
+    ],
+    [
+        "What is the English name of the code 'HUN' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'HUN' within the code list ID 'REF_AREA' is 'Hungary'."
+    ],
+    [
+        "What is the code for 'Hungary' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'HUN' within the code list ID 'REF_AREA' is 'Hungary'."
+    ],
+    [
+        "IDN",
+        "The English name of the code 'IDN' within the code list ID 'REF_AREA' is 'Indonesia'."
+    ],
+    [
+        "Indonesia",
+        "The English name of the code 'IDN' within the code list ID 'REF_AREA' is 'Indonesia'."
+    ],
+    [
+        "What is the English name of the code 'IDN' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'IDN' within the code list ID 'REF_AREA' is 'Indonesia'."
+    ],
+    [
+        "What is the code for 'Indonesia' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'IDN' within the code list ID 'REF_AREA' is 'Indonesia'."
+    ],
+    [
+        "IND",
+        "The English name of the code 'IND' within the code list ID 'REF_AREA' is 'India'."
+    ],
+    [
+        "India",
+        "The English name of the code 'IND' within the code list ID 'REF_AREA' is 'India'."
+    ],
+    [
+        "What is the English name of the code 'IND' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'IND' within the code list ID 'REF_AREA' is 'India'."
+    ],
+    [
+        "What is the code for 'India' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'IND' within the code list ID 'REF_AREA' is 'India'."
+    ],
+    [
+        "IRL",
+        "The English name of the code 'IRL' within the code list ID 'REF_AREA' is 'Ireland'."
+    ],
+    [
+        "Ireland",
+        "The English name of the code 'IRL' within the code list ID 'REF_AREA' is 'Ireland'."
+    ],
+    [
+        "What is the English name of the code 'IRL' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'IRL' within the code list ID 'REF_AREA' is 'Ireland'."
+    ],
+    [
+        "What is the code for 'Ireland' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'IRL' within the code list ID 'REF_AREA' is 'Ireland'."
+    ],
+    [
+        "ISL",
+        "The English name of the code 'ISL' within the code list ID 'REF_AREA' is 'Iceland'."
+    ],
+    [
+        "Iceland",
+        "The English name of the code 'ISL' within the code list ID 'REF_AREA' is 'Iceland'."
+    ],
+    [
+        "What is the English name of the code 'ISL' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ISL' within the code list ID 'REF_AREA' is 'Iceland'."
+    ],
+    [
+        "What is the code for 'Iceland' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ISL' within the code list ID 'REF_AREA' is 'Iceland'."
+    ],
+    [
+        "ISR",
+        "The English name of the code 'ISR' within the code list ID 'REF_AREA' is 'Israel'."
+    ],
+    [
+        "Israel",
+        "The English name of the code 'ISR' within the code list ID 'REF_AREA' is 'Israel'."
+    ],
+    [
+        "What is the English name of the code 'ISR' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ISR' within the code list ID 'REF_AREA' is 'Israel'."
+    ],
+    [
+        "What is the code for 'Israel' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ISR' within the code list ID 'REF_AREA' is 'Israel'."
+    ],
+    [
+        "ITA",
+        "The English name of the code 'ITA' within the code list ID 'REF_AREA' is 'Italy'."
+    ],
+    [
+        "Italy",
+        "The English name of the code 'ITA' within the code list ID 'REF_AREA' is 'Italy'."
+    ],
+    [
+        "What is the English name of the code 'ITA' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ITA' within the code list ID 'REF_AREA' is 'Italy'."
+    ],
+    [
+        "What is the code for 'Italy' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ITA' within the code list ID 'REF_AREA' is 'Italy'."
+    ],
+    [
+        "JPN",
+        "The English name of the code 'JPN' within the code list ID 'REF_AREA' is 'Japan'."
+    ],
+    [
+        "Japan",
+        "The English name of the code 'JPN' within the code list ID 'REF_AREA' is 'Japan'."
+    ],
+    [
+        "What is the English name of the code 'JPN' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'JPN' within the code list ID 'REF_AREA' is 'Japan'."
+    ],
+    [
+        "What is the code for 'Japan' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'JPN' within the code list ID 'REF_AREA' is 'Japan'."
+    ],
+    [
+        "KOR",
+        "The English name of the code 'KOR' within the code list ID 'REF_AREA' is 'Korea'."
+    ],
+    [
+        "Korea",
+        "The English name of the code 'KOR' within the code list ID 'REF_AREA' is 'Korea'."
+    ],
+    [
+        "What is the English name of the code 'KOR' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'KOR' within the code list ID 'REF_AREA' is 'Korea'."
+    ],
+    [
+        "What is the code for 'Korea' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'KOR' within the code list ID 'REF_AREA' is 'Korea'."
+    ],
+    [
+        "LTU",
+        "The English name of the code 'LTU' within the code list ID 'REF_AREA' is 'Lithuania'."
+    ],
+    [
+        "Lithuania",
+        "The English name of the code 'LTU' within the code list ID 'REF_AREA' is 'Lithuania'."
+    ],
+    [
+        "What is the English name of the code 'LTU' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'LTU' within the code list ID 'REF_AREA' is 'Lithuania'."
+    ],
+    [
+        "What is the code for 'Lithuania' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'LTU' within the code list ID 'REF_AREA' is 'Lithuania'."
+    ],
+    [
+        "LUX",
+        "The English name of the code 'LUX' within the code list ID 'REF_AREA' is 'Luxembourg'."
+    ],
+    [
+        "Luxembourg",
+        "The English name of the code 'LUX' within the code list ID 'REF_AREA' is 'Luxembourg'."
+    ],
+    [
+        "What is the English name of the code 'LUX' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'LUX' within the code list ID 'REF_AREA' is 'Luxembourg'."
+    ],
+    [
+        "What is the code for 'Luxembourg' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'LUX' within the code list ID 'REF_AREA' is 'Luxembourg'."
+    ],
+    [
+        "LVA",
+        "The English name of the code 'LVA' within the code list ID 'REF_AREA' is 'Latvia'."
+    ],
+    [
+        "Latvia",
+        "The English name of the code 'LVA' within the code list ID 'REF_AREA' is 'Latvia'."
+    ],
+    [
+        "What is the English name of the code 'LVA' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'LVA' within the code list ID 'REF_AREA' is 'Latvia'."
+    ],
+    [
+        "What is the code for 'Latvia' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'LVA' within the code list ID 'REF_AREA' is 'Latvia'."
+    ],
+    [
+        "MEX",
+        "The English name of the code 'MEX' within the code list ID 'REF_AREA' is 'Mexico'."
+    ],
+    [
+        "Mexico",
+        "The English name of the code 'MEX' within the code list ID 'REF_AREA' is 'Mexico'."
+    ],
+    [
+        "What is the English name of the code 'MEX' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'MEX' within the code list ID 'REF_AREA' is 'Mexico'."
+    ],
+    [
+        "What is the code for 'Mexico' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'MEX' within the code list ID 'REF_AREA' is 'Mexico'."
+    ],
+    [
+        "NLD",
+        "The English name of the code 'NLD' within the code list ID 'REF_AREA' is 'Netherlands'."
+    ],
+    [
+        "Netherlands",
+        "The English name of the code 'NLD' within the code list ID 'REF_AREA' is 'Netherlands'."
+    ],
+    [
+        "What is the English name of the code 'NLD' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'NLD' within the code list ID 'REF_AREA' is 'Netherlands'."
+    ],
+    [
+        "What is the code for 'Netherlands' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'NLD' within the code list ID 'REF_AREA' is 'Netherlands'."
+    ],
+    [
+        "NOR",
+        "The English name of the code 'NOR' within the code list ID 'REF_AREA' is 'Norway'."
+    ],
+    [
+        "Norway",
+        "The English name of the code 'NOR' within the code list ID 'REF_AREA' is 'Norway'."
+    ],
+    [
+        "What is the English name of the code 'NOR' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'NOR' within the code list ID 'REF_AREA' is 'Norway'."
+    ],
+    [
+        "What is the code for 'Norway' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'NOR' within the code list ID 'REF_AREA' is 'Norway'."
+    ],
+    [
+        "NZL",
+        "The English name of the code 'NZL' within the code list ID 'REF_AREA' is 'New Zealand'."
+    ],
+    [
+        "New Zealand",
+        "The English name of the code 'NZL' within the code list ID 'REF_AREA' is 'New Zealand'."
+    ],
+    [
+        "What is the English name of the code 'NZL' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'NZL' within the code list ID 'REF_AREA' is 'New Zealand'."
+    ],
+    [
+        "What is the code for 'New Zealand' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'NZL' within the code list ID 'REF_AREA' is 'New Zealand'."
+    ],
+    [
+        "OECD",
+        "The English name of the code 'OECD' within the code list ID 'REF_AREA' is 'OECD'."
+    ],
+    [
+        "OECD",
+        "The English name of the code 'OECD' within the code list ID 'REF_AREA' is 'OECD'."
+    ],
+    [
+        "What is the English name of the code 'OECD' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'OECD' within the code list ID 'REF_AREA' is 'OECD'."
+    ],
+    [
+        "What is the code for 'OECD' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'OECD' within the code list ID 'REF_AREA' is 'OECD'."
+    ],
+    [
+        "PER",
+        "The English name of the code 'PER' within the code list ID 'REF_AREA' is 'Peru'."
+    ],
+    [
+        "Peru",
+        "The English name of the code 'PER' within the code list ID 'REF_AREA' is 'Peru'."
+    ],
+    [
+        "What is the English name of the code 'PER' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'PER' within the code list ID 'REF_AREA' is 'Peru'."
+    ],
+    [
+        "What is the code for 'Peru' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'PER' within the code list ID 'REF_AREA' is 'Peru'."
+    ],
+    [
+        "POL",
+        "The English name of the code 'POL' within the code list ID 'REF_AREA' is 'Poland'."
+    ],
+    [
+        "Poland",
+        "The English name of the code 'POL' within the code list ID 'REF_AREA' is 'Poland'."
+    ],
+    [
+        "What is the English name of the code 'POL' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'POL' within the code list ID 'REF_AREA' is 'Poland'."
+    ],
+    [
+        "What is the code for 'Poland' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'POL' within the code list ID 'REF_AREA' is 'Poland'."
+    ],
+    [
+        "PRT",
+        "The English name of the code 'PRT' within the code list ID 'REF_AREA' is 'Portugal'."
+    ],
+    [
+        "Portugal",
+        "The English name of the code 'PRT' within the code list ID 'REF_AREA' is 'Portugal'."
+    ],
+    [
+        "What is the English name of the code 'PRT' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'PRT' within the code list ID 'REF_AREA' is 'Portugal'."
+    ],
+    [
+        "What is the code for 'Portugal' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'PRT' within the code list ID 'REF_AREA' is 'Portugal'."
+    ],
+    [
+        "ROU",
+        "The English name of the code 'ROU' within the code list ID 'REF_AREA' is 'Romania'."
+    ],
+    [
+        "Romania",
+        "The English name of the code 'ROU' within the code list ID 'REF_AREA' is 'Romania'."
+    ],
+    [
+        "What is the English name of the code 'ROU' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ROU' within the code list ID 'REF_AREA' is 'Romania'."
+    ],
+    [
+        "What is the code for 'Romania' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ROU' within the code list ID 'REF_AREA' is 'Romania'."
+    ],
+    [
+        "SAU",
+        "The English name of the code 'SAU' within the code list ID 'REF_AREA' is 'Saudi Arabia'."
+    ],
+    [
+        "Saudi Arabia",
+        "The English name of the code 'SAU' within the code list ID 'REF_AREA' is 'Saudi Arabia'."
+    ],
+    [
+        "What is the English name of the code 'SAU' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'SAU' within the code list ID 'REF_AREA' is 'Saudi Arabia'."
+    ],
+    [
+        "What is the code for 'Saudi Arabia' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'SAU' within the code list ID 'REF_AREA' is 'Saudi Arabia'."
+    ],
+    [
+        "SVK",
+        "The English name of the code 'SVK' within the code list ID 'REF_AREA' is 'Slovak Republic'."
+    ],
+    [
+        "Slovak Republic",
+        "The English name of the code 'SVK' within the code list ID 'REF_AREA' is 'Slovak Republic'."
+    ],
+    [
+        "What is the English name of the code 'SVK' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'SVK' within the code list ID 'REF_AREA' is 'Slovak Republic'."
+    ],
+    [
+        "What is the code for 'Slovak Republic' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'SVK' within the code list ID 'REF_AREA' is 'Slovak Republic'."
+    ],
+    [
+        "SVN",
+        "The English name of the code 'SVN' within the code list ID 'REF_AREA' is 'Slovenia'."
+    ],
+    [
+        "Slovenia",
+        "The English name of the code 'SVN' within the code list ID 'REF_AREA' is 'Slovenia'."
+    ],
+    [
+        "What is the English name of the code 'SVN' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'SVN' within the code list ID 'REF_AREA' is 'Slovenia'."
+    ],
+    [
+        "What is the code for 'Slovenia' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'SVN' within the code list ID 'REF_AREA' is 'Slovenia'."
+    ],
+    [
+        "SWE",
+        "The English name of the code 'SWE' within the code list ID 'REF_AREA' is 'Sweden'."
+    ],
+    [
+        "Sweden",
+        "The English name of the code 'SWE' within the code list ID 'REF_AREA' is 'Sweden'."
+    ],
+    [
+        "What is the English name of the code 'SWE' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'SWE' within the code list ID 'REF_AREA' is 'Sweden'."
+    ],
+    [
+        "What is the code for 'Sweden' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'SWE' within the code list ID 'REF_AREA' is 'Sweden'."
+    ],
+    [
+        "TUR",
+        "The English name of the code 'TUR' within the code list ID 'REF_AREA' is 'T\u00fcrkiye'."
+    ],
+    [
+        "T\u00fcrkiye",
+        "The English name of the code 'TUR' within the code list ID 'REF_AREA' is 'T\u00fcrkiye'."
+    ],
+    [
+        "What is the English name of the code 'TUR' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'TUR' within the code list ID 'REF_AREA' is 'T\u00fcrkiye'."
+    ],
+    [
+        "What is the code for 'T\u00fcrkiye' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'TUR' within the code list ID 'REF_AREA' is 'T\u00fcrkiye'."
+    ],
+    [
+        "USA",
+        "The English name of the code 'USA' within the code list ID 'REF_AREA' is 'United States'."
+    ],
+    [
+        "United States",
+        "The English name of the code 'USA' within the code list ID 'REF_AREA' is 'United States'."
+    ],
+    [
+        "What is the English name of the code 'USA' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'USA' within the code list ID 'REF_AREA' is 'United States'."
+    ],
+    [
+        "What is the code for 'United States' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'USA' within the code list ID 'REF_AREA' is 'United States'."
+    ],
+    [
+        "ZAF",
+        "The English name of the code 'ZAF' within the code list ID 'REF_AREA' is 'South Africa'."
+    ],
+    [
+        "South Africa",
+        "The English name of the code 'ZAF' within the code list ID 'REF_AREA' is 'South Africa'."
+    ],
+    [
+        "What is the English name of the code 'ZAF' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ZAF' within the code list ID 'REF_AREA' is 'South Africa'."
+    ],
+    [
+        "What is the code for 'South Africa' within the code list ID 'REF_AREA'?",
+        "The English name of the code 'ZAF' within the code list ID 'REF_AREA' is 'South Africa'."
+    ],
+    [
+        "ISCED11_1",
+        "The English name of the code 'ISCED11_1' within the code list ID 'EDUCATION_LEV' is 'Primary education'."
+    ],
+    [
+        "Primary education",
+        "The English name of the code 'ISCED11_1' within the code list ID 'EDUCATION_LEV' is 'Primary education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_1' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_1' within the code list ID 'EDUCATION_LEV' is 'Primary education'."
+    ],
+    [
+        "What is the code for 'Primary education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_1' within the code list ID 'EDUCATION_LEV' is 'Primary education'."
+    ],
+    [
+        "ISCED11_1T4",
+        "The English name of the code 'ISCED11_1T4' within the code list ID 'EDUCATION_LEV' is 'Primary to post-secondary non-tertiary education'."
+    ],
+    [
+        "Primary to post-secondary non-tertiary education",
+        "The English name of the code 'ISCED11_1T4' within the code list ID 'EDUCATION_LEV' is 'Primary to post-secondary non-tertiary education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_1T4' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_1T4' within the code list ID 'EDUCATION_LEV' is 'Primary to post-secondary non-tertiary education'."
+    ],
+    [
+        "What is the code for 'Primary to post-secondary non-tertiary education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_1T4' within the code list ID 'EDUCATION_LEV' is 'Primary to post-secondary non-tertiary education'."
+    ],
+    [
+        "ISCED11_1T8",
+        "The English name of the code 'ISCED11_1T8' within the code list ID 'EDUCATION_LEV' is 'Primary to tertiary education'."
+    ],
+    [
+        "Primary to tertiary education",
+        "The English name of the code 'ISCED11_1T8' within the code list ID 'EDUCATION_LEV' is 'Primary to tertiary education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_1T8' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_1T8' within the code list ID 'EDUCATION_LEV' is 'Primary to tertiary education'."
+    ],
+    [
+        "What is the code for 'Primary to tertiary education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_1T8' within the code list ID 'EDUCATION_LEV' is 'Primary to tertiary education'."
+    ],
+    [
+        "ISCED11_2",
+        "The English name of the code 'ISCED11_2' within the code list ID 'EDUCATION_LEV' is 'Lower secondary education'."
+    ],
+    [
+        "Lower secondary education",
+        "The English name of the code 'ISCED11_2' within the code list ID 'EDUCATION_LEV' is 'Lower secondary education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_2' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_2' within the code list ID 'EDUCATION_LEV' is 'Lower secondary education'."
+    ],
+    [
+        "What is the code for 'Lower secondary education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_2' within the code list ID 'EDUCATION_LEV' is 'Lower secondary education'."
+    ],
+    [
+        "ISCED11_2_3",
+        "The English name of the code 'ISCED11_2_3' within the code list ID 'EDUCATION_LEV' is 'Secondary education'."
+    ],
+    [
+        "Secondary education",
+        "The English name of the code 'ISCED11_2_3' within the code list ID 'EDUCATION_LEV' is 'Secondary education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_2_3' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_2_3' within the code list ID 'EDUCATION_LEV' is 'Secondary education'."
+    ],
+    [
+        "What is the code for 'Secondary education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_2_3' within the code list ID 'EDUCATION_LEV' is 'Secondary education'."
+    ],
+    [
+        "ISCED11_24",
+        "The English name of the code 'ISCED11_24' within the code list ID 'EDUCATION_LEV' is 'Lower secondary general education'."
+    ],
+    [
+        "Lower secondary general education",
+        "The English name of the code 'ISCED11_24' within the code list ID 'EDUCATION_LEV' is 'Lower secondary general education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_24' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_24' within the code list ID 'EDUCATION_LEV' is 'Lower secondary general education'."
+    ],
+    [
+        "What is the code for 'Lower secondary general education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_24' within the code list ID 'EDUCATION_LEV' is 'Lower secondary general education'."
+    ],
+    [
+        "ISCED11_25",
+        "The English name of the code 'ISCED11_25' within the code list ID 'EDUCATION_LEV' is 'Lower secondary vocational education'."
+    ],
+    [
+        "Lower secondary vocational education",
+        "The English name of the code 'ISCED11_25' within the code list ID 'EDUCATION_LEV' is 'Lower secondary vocational education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_25' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_25' within the code list ID 'EDUCATION_LEV' is 'Lower secondary vocational education'."
+    ],
+    [
+        "What is the code for 'Lower secondary vocational education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_25' within the code list ID 'EDUCATION_LEV' is 'Lower secondary vocational education'."
+    ],
+    [
+        "ISCED11_3",
+        "The English name of the code 'ISCED11_3' within the code list ID 'EDUCATION_LEV' is 'Upper secondary education'."
+    ],
+    [
+        "Upper secondary education",
+        "The English name of the code 'ISCED11_3' within the code list ID 'EDUCATION_LEV' is 'Upper secondary education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_3' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_3' within the code list ID 'EDUCATION_LEV' is 'Upper secondary education'."
+    ],
+    [
+        "What is the code for 'Upper secondary education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_3' within the code list ID 'EDUCATION_LEV' is 'Upper secondary education'."
+    ],
+    [
+        "ISCED11_3_4",
+        "The English name of the code 'ISCED11_3_4' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary all programmes'."
+    ],
+    [
+        "Upper secondary and post-secondary non-tertiary all programmes",
+        "The English name of the code 'ISCED11_3_4' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary all programmes'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_3_4' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_3_4' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary all programmes'."
+    ],
+    [
+        "What is the code for 'Upper secondary and post-secondary non-tertiary all programmes' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_3_4' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary all programmes'."
+    ],
+    [
+        "ISCED11_34",
+        "The English name of the code 'ISCED11_34' within the code list ID 'EDUCATION_LEV' is 'Upper secondary general education'."
+    ],
+    [
+        "Upper secondary general education",
+        "The English name of the code 'ISCED11_34' within the code list ID 'EDUCATION_LEV' is 'Upper secondary general education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_34' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_34' within the code list ID 'EDUCATION_LEV' is 'Upper secondary general education'."
+    ],
+    [
+        "What is the code for 'Upper secondary general education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_34' within the code list ID 'EDUCATION_LEV' is 'Upper secondary general education'."
+    ],
+    [
+        "ISCED11_34_44",
+        "The English name of the code 'ISCED11_34_44' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary general programmes'."
+    ],
+    [
+        "Upper secondary and post-secondary non-tertiary general programmes",
+        "The English name of the code 'ISCED11_34_44' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary general programmes'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_34_44' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_34_44' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary general programmes'."
+    ],
+    [
+        "What is the code for 'Upper secondary and post-secondary non-tertiary general programmes' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_34_44' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary general programmes'."
+    ],
+    [
+        "ISCED11_35",
+        "The English name of the code 'ISCED11_35' within the code list ID 'EDUCATION_LEV' is 'Upper secondary vocational education'."
+    ],
+    [
+        "Upper secondary vocational education",
+        "The English name of the code 'ISCED11_35' within the code list ID 'EDUCATION_LEV' is 'Upper secondary vocational education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_35' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_35' within the code list ID 'EDUCATION_LEV' is 'Upper secondary vocational education'."
+    ],
+    [
+        "What is the code for 'Upper secondary vocational education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_35' within the code list ID 'EDUCATION_LEV' is 'Upper secondary vocational education'."
+    ],
+    [
+        "ISCED11_35_45",
+        "The English name of the code 'ISCED11_35_45' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary vocational programmes'."
+    ],
+    [
+        "Upper secondary and post-secondary non-tertiary vocational programmes",
+        "The English name of the code 'ISCED11_35_45' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary vocational programmes'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_35_45' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_35_45' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary vocational programmes'."
+    ],
+    [
+        "What is the code for 'Upper secondary and post-secondary non-tertiary vocational programmes' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_35_45' within the code list ID 'EDUCATION_LEV' is 'Upper secondary and post-secondary non-tertiary vocational programmes'."
+    ],
+    [
+        "ISCED11_4",
+        "The English name of the code 'ISCED11_4' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary education'."
+    ],
+    [
+        "Post-secondary non-tertiary education",
+        "The English name of the code 'ISCED11_4' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_4' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_4' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary education'."
+    ],
+    [
+        "What is the code for 'Post-secondary non-tertiary education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_4' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary education'."
+    ],
+    [
+        "ISCED11_44",
+        "The English name of the code 'ISCED11_44' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary general education'."
+    ],
+    [
+        "Post-secondary non-tertiary general education",
+        "The English name of the code 'ISCED11_44' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary general education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_44' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_44' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary general education'."
+    ],
+    [
+        "What is the code for 'Post-secondary non-tertiary general education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_44' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary general education'."
+    ],
+    [
+        "ISCED11_45",
+        "The English name of the code 'ISCED11_45' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary vocational education'."
+    ],
+    [
+        "Post-secondary non-tertiary vocational education",
+        "The English name of the code 'ISCED11_45' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary vocational education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_45' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_45' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary vocational education'."
+    ],
+    [
+        "What is the code for 'Post-secondary non-tertiary vocational education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_45' within the code list ID 'EDUCATION_LEV' is 'Post-secondary non-tertiary vocational education'."
+    ],
+    [
+        "ISCED11_5",
+        "The English name of the code 'ISCED11_5' within the code list ID 'EDUCATION_LEV' is 'Short-cycle tertiary education'."
+    ],
+    [
+        "Short-cycle tertiary education",
+        "The English name of the code 'ISCED11_5' within the code list ID 'EDUCATION_LEV' is 'Short-cycle tertiary education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_5' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_5' within the code list ID 'EDUCATION_LEV' is 'Short-cycle tertiary education'."
+    ],
+    [
+        "What is the code for 'Short-cycle tertiary education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_5' within the code list ID 'EDUCATION_LEV' is 'Short-cycle tertiary education'."
+    ],
+    [
+        "ISCED11_5T8",
+        "The English name of the code 'ISCED11_5T8' within the code list ID 'EDUCATION_LEV' is 'Tertiary education'."
+    ],
+    [
+        "Tertiary education",
+        "The English name of the code 'ISCED11_5T8' within the code list ID 'EDUCATION_LEV' is 'Tertiary education'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_5T8' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_5T8' within the code list ID 'EDUCATION_LEV' is 'Tertiary education'."
+    ],
+    [
+        "What is the code for 'Tertiary education' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_5T8' within the code list ID 'EDUCATION_LEV' is 'Tertiary education'."
+    ],
+    [
+        "ISCED11_6T8",
+        "The English name of the code 'ISCED11_6T8' within the code list ID 'EDUCATION_LEV' is 'Bachelor's, Master's and Doctoral or equivalent level'."
+    ],
+    [
+        "Bachelor's, Master's and Doctoral or equivalent level",
+        "The English name of the code 'ISCED11_6T8' within the code list ID 'EDUCATION_LEV' is 'Bachelor's, Master's and Doctoral or equivalent level'."
+    ],
+    [
+        "What is the English name of the code 'ISCED11_6T8' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_6T8' within the code list ID 'EDUCATION_LEV' is 'Bachelor's, Master's and Doctoral or equivalent level'."
+    ],
+    [
+        "What is the code for 'Bachelor's, Master's and Doctoral or equivalent level' within the code list ID 'EDUCATION_LEV'?",
+        "The English name of the code 'ISCED11_6T8' within the code list ID 'EDUCATION_LEV' is 'Bachelor's, Master's and Doctoral or equivalent level'."
+    ],
+    [
+        "_T",
+        "The English name of the code '_T' within the code list ID 'EXP_SOURCE' is 'Total'."
+    ],
+    [
+        "Total",
+        "The English name of the code '_T' within the code list ID 'EXP_SOURCE' is 'Total'."
+    ],
+    [
+        "What is the English name of the code '_T' within the code list ID 'EXP_SOURCE'?",
+        "The English name of the code '_T' within the code list ID 'EXP_SOURCE' is 'Total'."
+    ],
+    [
+        "What is the code for 'Total' within the code list ID 'EXP_SOURCE'?",
+        "The English name of the code '_T' within the code list ID 'EXP_SOURCE' is 'Total'."
+    ],
+    [
+        "S13",
+        "The English name of the code 'S13' within the code list ID 'EXP_SOURCE' is 'General government'."
+    ],
+    [
+        "General government",
+        "The English name of the code 'S13' within the code list ID 'EXP_SOURCE' is 'General government'."
+    ],
+    [
+        "What is the English name of the code 'S13' within the code list ID 'EXP_SOURCE'?",
+        "The English name of the code 'S13' within the code list ID 'EXP_SOURCE' is 'General government'."
+    ],
+    [
+        "What is the code for 'General government' within the code list ID 'EXP_SOURCE'?",
+        "The English name of the code 'S13' within the code list ID 'EXP_SOURCE' is 'General government'."
+    ],
+    [
+        "S1D_NON_EDU",
+        "The English name of the code 'S1D_NON_EDU' within the code list ID 'EXP_SOURCE' is 'Private sector (households and other non-educational private entities)'."
+    ],
+    [
+        "Private sector (households and other non-educational private entities)",
+        "The English name of the code 'S1D_NON_EDU' within the code list ID 'EXP_SOURCE' is 'Private sector (households and other non-educational private entities)'."
+    ],
+    [
+        "What is the English name of the code 'S1D_NON_EDU' within the code list ID 'EXP_SOURCE'?",
+        "The English name of the code 'S1D_NON_EDU' within the code list ID 'EXP_SOURCE' is 'Private sector (households and other non-educational private entities)'."
+    ],
+    [
+        "What is the code for 'Private sector (households and other non-educational private entities)' within the code list ID 'EXP_SOURCE'?",
+        "The English name of the code 'S1D_NON_EDU' within the code list ID 'EXP_SOURCE' is 'Private sector (households and other non-educational private entities)'."
+    ],
+    [
+        "S1D_NON_EDU_O",
+        "The English name of the code 'S1D_NON_EDU_O' within the code list ID 'EXP_SOURCE' is 'Other non-educational private sector'."
+    ],
+    [
+        "Other non-educational private sector",
+        "The English name of the code 'S1D_NON_EDU_O' within the code list ID 'EXP_SOURCE' is 'Other non-educational private sector'."
+    ],
+    [
+        "What is the English name of the code 'S1D_NON_EDU_O' within the code list ID 'EXP_SOURCE'?",
+        "The English name of the code 'S1D_NON_EDU_O' within the code list ID 'EXP_SOURCE' is 'Other non-educational private sector'."
+    ],
+    [
+        "What is the code for 'Other non-educational private sector' within the code list ID 'EXP_SOURCE'?",
+        "The English name of the code 'S1D_NON_EDU_O' within the code list ID 'EXP_SOURCE' is 'Other non-educational private sector'."
+    ],
+    [
+        "S2",
+        "The English name of the code 'S2' within the code list ID 'EXP_SOURCE' is 'Rest of the world'."
+    ],
+    [
+        "Rest of the world",
+        "The English name of the code 'S2' within the code list ID 'EXP_SOURCE' is 'Rest of the world'."
+    ],
+    [
+        "What is the English name of the code 'S2' within the code list ID 'EXP_SOURCE'?",
+        "The English name of the code 'S2' within the code list ID 'EXP_SOURCE' is 'Rest of the world'."
+    ],
+    [
+        "What is the code for 'Rest of the world' within the code list ID 'EXP_SOURCE'?",
+        "The English name of the code 'S2' within the code list ID 'EXP_SOURCE' is 'Rest of the world'."
+    ],
+    [
+        "INST_EDU",
+        "The English name of the code 'INST_EDU' within the code list ID 'EXP_DESTINATION' is 'All educational institutions'."
+    ],
+    [
+        "All educational institutions",
+        "The English name of the code 'INST_EDU' within the code list ID 'EXP_DESTINATION' is 'All educational institutions'."
+    ],
+    [
+        "What is the English name of the code 'INST_EDU' within the code list ID 'EXP_DESTINATION'?",
+        "The English name of the code 'INST_EDU' within the code list ID 'EXP_DESTINATION' is 'All educational institutions'."
+    ],
+    [
+        "What is the code for 'All educational institutions' within the code list ID 'EXP_DESTINATION'?",
+        "The English name of the code 'INST_EDU' within the code list ID 'EXP_DESTINATION' is 'All educational institutions'."
+    ],
+    [
+        "INST_EDU_PRIV",
+        "The English name of the code 'INST_EDU_PRIV' within the code list ID 'EXP_DESTINATION' is 'Private educational institutions'."
+    ],
+    [
+        "Private educational institutions",
+        "The English name of the code 'INST_EDU_PRIV' within the code list ID 'EXP_DESTINATION' is 'Private educational institutions'."
+    ],
+    [
+        "What is the English name of the code 'INST_EDU_PRIV' within the code list ID 'EXP_DESTINATION'?",
+        "The English name of the code 'INST_EDU_PRIV' within the code list ID 'EXP_DESTINATION' is 'Private educational institutions'."
+    ],
+    [
+        "What is the code for 'Private educational institutions' within the code list ID 'EXP_DESTINATION'?",
+        "The English name of the code 'INST_EDU_PRIV' within the code list ID 'EXP_DESTINATION' is 'Private educational institutions'."
+    ],
+    [
+        "INST_EDU_PRIV_GOV",
+        "The English name of the code 'INST_EDU_PRIV_GOV' within the code list ID 'EXP_DESTINATION' is 'Government dependent private educational institutions'."
+    ],
+    [
+        "Government dependent private educational institutions",
+        "The English name of the code 'INST_EDU_PRIV_GOV' within the code list ID 'EXP_DESTINATION' is 'Government dependent private educational institutions'."
+    ],
+    [
+        "What is the English name of the code 'INST_EDU_PRIV_GOV' within the code list ID 'EXP_DESTINATION'?",
+        "The English name of the code 'INST_EDU_PRIV_GOV' within the code list ID 'EXP_DESTINATION' is 'Government dependent private educational institutions'."
+    ],
+    [
+        "What is the code for 'Government dependent private educational institutions' within the code list ID 'EXP_DESTINATION'?",
+        "The English name of the code 'INST_EDU_PRIV_GOV' within the code list ID 'EXP_DESTINATION' is 'Government dependent private educational institutions'."
+    ],
+    [
+        "INST_EDU_PRIV_IND",
+        "The English name of the code 'INST_EDU_PRIV_IND' within the code list ID 'EXP_DESTINATION' is 'Independent private educational institutions'."
+    ],
+    [
+        "Independent private educational institutions",
+        "The English name of the code 'INST_EDU_PRIV_IND' within the code list ID 'EXP_DESTINATION' is 'Independent private educational institutions'."
+    ],
+    [
+        "What is the English name of the code 'INST_EDU_PRIV_IND' within the code list ID 'EXP_DESTINATION'?",
+        "The English name of the code 'INST_EDU_PRIV_IND' within the code list ID 'EXP_DESTINATION' is 'Independent private educational institutions'."
+    ],
+    [
+        "What is the code for 'Independent private educational institutions' within the code list ID 'EXP_DESTINATION'?",
+        "The English name of the code 'INST_EDU_PRIV_IND' within the code list ID 'EXP_DESTINATION' is 'Independent private educational institutions'."
+    ],
+    [
+        "INST_EDU_PUB",
+        "The English name of the code 'INST_EDU_PUB' within the code list ID 'EXP_DESTINATION' is 'Public educational institutions'."
+    ],
+    [
+        "Public educational institutions",
+        "The English name of the code 'INST_EDU_PUB' within the code list ID 'EXP_DESTINATION' is 'Public educational institutions'."
+    ],
+    [
+        "What is the English name of the code 'INST_EDU_PUB' within the code list ID 'EXP_DESTINATION'?",
+        "The English name of the code 'INST_EDU_PUB' within the code list ID 'EXP_DESTINATION' is 'Public educational institutions'."
+    ],
+    [
+        "What is the code for 'Public educational institutions' within the code list ID 'EXP_DESTINATION'?",
+        "The English name of the code 'INST_EDU_PUB' within the code list ID 'EXP_DESTINATION' is 'Public educational institutions'."
+    ],
+    [
+        "ASERV",
+        "The English name of the code 'ASERV' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for ancillary services'."
+    ],
+    [
+        "Expenditure for ancillary services",
+        "The English name of the code 'ASERV' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for ancillary services'."
+    ],
+    [
+        "What is the English name of the code 'ASERV' within the code list ID 'EXPENDITURE_TYPE'?",
+        "The English name of the code 'ASERV' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for ancillary services'."
+    ],
+    [
+        "What is the code for 'Expenditure for ancillary services' within the code list ID 'EXPENDITURE_TYPE'?",
+        "The English name of the code 'ASERV' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for ancillary services'."
+    ],
+    [
+        "CORE",
+        "The English name of the code 'CORE' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for core services'."
+    ],
+    [
+        "Expenditure for core services",
+        "The English name of the code 'CORE' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for core services'."
+    ],
+    [
+        "What is the English name of the code 'CORE' within the code list ID 'EXPENDITURE_TYPE'?",
+        "The English name of the code 'CORE' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for core services'."
+    ],
+    [
+        "What is the code for 'Expenditure for core services' within the code list ID 'EXPENDITURE_TYPE'?",
+        "The English name of the code 'CORE' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for core services'."
+    ],
+    [
+        "DIR_EXP",
+        "The English name of the code 'DIR_EXP' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for educational institutions'."
+    ],
+    [
+        "Expenditure for educational institutions",
+        "The English name of the code 'DIR_EXP' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for educational institutions'."
+    ],
+    [
+        "What is the English name of the code 'DIR_EXP' within the code list ID 'EXPENDITURE_TYPE'?",
+        "The English name of the code 'DIR_EXP' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for educational institutions'."
+    ],
+    [
+        "What is the code for 'Expenditure for educational institutions' within the code list ID 'EXPENDITURE_TYPE'?",
+        "The English name of the code 'DIR_EXP' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for educational institutions'."
+    ],
+    [
+        "NORD",
+        "The English name of the code 'NORD' within the code list ID 'EXPENDITURE_TYPE' is 'Excluding research and development (R&D)'."
+    ],
+    [
+        "Excluding research and development (R&D)",
+        "The English name of the code 'NORD' within the code list ID 'EXPENDITURE_TYPE' is 'Excluding research and development (R&D)'."
+    ],
+    [
+        "What is the English name of the code 'NORD' within the code list ID 'EXPENDITURE_TYPE'?",
+        "The English name of the code 'NORD' within the code list ID 'EXPENDITURE_TYPE' is 'Excluding research and development (R&D)'."
+    ],
+    [
+        "What is the code for 'Excluding research and development (R&D)' within the code list ID 'EXPENDITURE_TYPE'?",
+        "The English name of the code 'NORD' within the code list ID 'EXPENDITURE_TYPE' is 'Excluding research and development (R&D)'."
+    ],
+    [
+        "RD",
+        "The English name of the code 'RD' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for R&D in educational institutions'."
+    ],
+    [
+        "Expenditure for R&D in educational institutions",
+        "The English name of the code 'RD' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for R&D in educational institutions'."
+    ],
+    [
+        "What is the English name of the code 'RD' within the code list ID 'EXPENDITURE_TYPE'?",
+        "The English name of the code 'RD' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for R&D in educational institutions'."
+    ],
+    [
+        "What is the code for 'Expenditure for R&D in educational institutions' within the code list ID 'EXPENDITURE_TYPE'?",
+        "The English name of the code 'RD' within the code list ID 'EXPENDITURE_TYPE' is 'Expenditure for R&D in educational institutions'."
+    ],
+    [
+        "_Z",
+        "The English name of the code '_Z' within the code list ID 'PRICE_BASE' is 'Not applicable'."
+    ],
+    [
+        "Not applicable",
+        "The English name of the code '_Z' within the code list ID 'PRICE_BASE' is 'Not applicable'."
+    ],
+    [
+        "What is the English name of the code '_Z' within the code list ID 'PRICE_BASE'?",
+        "The English name of the code '_Z' within the code list ID 'PRICE_BASE' is 'Not applicable'."
+    ],
+    [
+        "What is the code for 'Not applicable' within the code list ID 'PRICE_BASE'?",
+        "The English name of the code '_Z' within the code list ID 'PRICE_BASE' is 'Not applicable'."
+    ],
+    [
+        "V",
+        "The English name of the code 'V' within the code list ID 'PRICE_BASE' is 'Current prices'."
+    ],
+    [
+        "Current prices",
+        "The English name of the code 'V' within the code list ID 'PRICE_BASE' is 'Current prices'."
+    ],
+    [
+        "What is the English name of the code 'V' within the code list ID 'PRICE_BASE'?",
+        "The English name of the code 'V' within the code list ID 'PRICE_BASE' is 'Current prices'."
+    ],
+    [
+        "What is the code for 'Current prices' within the code list ID 'PRICE_BASE'?",
+        "The English name of the code 'V' within the code list ID 'PRICE_BASE' is 'Current prices'."
+    ],
+    [
+        "PT_B1GQ_POP",
+        "The English name of the code 'PT_B1GQ_POP' within the code list ID 'UNIT_MEASURE' is 'Percentage of GDP per capita'."
+    ],
+    [
+        "Percentage of GDP per capita",
+        "The English name of the code 'PT_B1GQ_POP' within the code list ID 'UNIT_MEASURE' is 'Percentage of GDP per capita'."
+    ],
+    [
+        "What is the English name of the code 'PT_B1GQ_POP' within the code list ID 'UNIT_MEASURE'?",
+        "The English name of the code 'PT_B1GQ_POP' within the code list ID 'UNIT_MEASURE' is 'Percentage of GDP per capita'."
+    ],
+    [
+        "What is the code for 'Percentage of GDP per capita' within the code list ID 'UNIT_MEASURE'?",
+        "The English name of the code 'PT_B1GQ_POP' within the code list ID 'UNIT_MEASURE' is 'Percentage of GDP per capita'."
+    ],
+    [
+        "USD_PPP_ST",
+        "The English name of the code 'USD_PPP_ST' within the code list ID 'UNIT_MEASURE' is 'US dollars per student, PPP converted'."
+    ],
+    [
+        "US dollars per student, PPP converted",
+        "The English name of the code 'USD_PPP_ST' within the code list ID 'UNIT_MEASURE' is 'US dollars per student, PPP converted'."
+    ],
+    [
+        "What is the English name of the code 'USD_PPP_ST' within the code list ID 'UNIT_MEASURE'?",
+        "The English name of the code 'USD_PPP_ST' within the code list ID 'UNIT_MEASURE' is 'US dollars per student, PPP converted'."
+    ],
+    [
+        "What is the code for 'US dollars per student, PPP converted' within the code list ID 'UNIT_MEASURE'?",
+        "The English name of the code 'USD_PPP_ST' within the code list ID 'UNIT_MEASURE' is 'US dollars per student, PPP converted'."
+    ],
+    [
+        1995,
+        "The English name of the code '1995' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
+    ],
+    [
+        "No codelist found",
+        "The English name of the code '1995' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
+    ],
+    [
+        "What is the English name of the code '1995' within the code list ID 'TIME_PERIOD'?",
+        "The English name of the code '1995' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
+    ],
+    [
+        "What is the code for 'No codelist found' within the code list ID 'TIME_PERIOD'?",
+        "The English name of the code '1995' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
+    ],
+    [
+        2021,
+        "The English name of the code '2021' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
+    ],
+    [
+        "No codelist found",
+        "The English name of the code '2021' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
+    ],
+    [
+        "What is the English name of the code '2021' within the code list ID 'TIME_PERIOD'?",
+        "The English name of the code '2021' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
+    ],
+    [
+        "What is the code for 'No codelist found' within the code list ID 'TIME_PERIOD'?",
+        "The English name of the code '2021' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
+    ]
+]

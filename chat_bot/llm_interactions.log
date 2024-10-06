@@ -1128,3 +1128,84 @@
 2024-10-05 12:05:40 - LLM: The capital of France is Paris.
 2024-10-05 12:05:40 - Cost of this interaction: $0.000008
 2024-10-05 12:05:40 - Total price so far: $0.000008
+2024-10-05 12:42:53 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-05 12:42:53 - [33mPress CTRL+C to quit[0m
+2024-10-05 12:42:53 -  * Restarting with stat
+2024-10-05 12:42:54 -  * Debugger is active!
+2024-10-05 12:42:54 -  * Debugger PIN: 639-302-769
+2024-10-05 12:43:03 - 127.0.0.1 - - [05/Oct/2024 12:43:03] "GET / HTTP/1.1" 200 -
+2024-10-05 12:43:03 - 127.0.0.1 - - [05/Oct/2024 12:43:03] "GET /static/scripts.js HTTP/1.1" 200 -
+2024-10-05 12:43:03 - 127.0.0.1 - - [05/Oct/2024 12:43:03] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-05 12:43:03 - 127.0.0.1 - - [05/Oct/2024 12:43:03] "GET /get_categories HTTP/1.1" 200 -
+2024-10-05 12:43:07 - 127.0.0.1 - - [05/Oct/2024 12:43:07] "GET /get_dataflows/UOE%20Financial HTTP/1.1" 200 -
+2024-10-05 12:43:23 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-10-05 12:43:26 - 127.0.0.1 - - [05/Oct/2024 12:43:26] "POST /initialize_bot HTTP/1.1" 200 -
+2024-10-05 12:43:38 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-10-05 12:43:38 - User: 
+        Please provide the answer to the following user question: 
+        what is the name of the dataflow
+        Please use the information from the source that was selected as the best source to answer the question!
+        This is the most similar question to the user question:
+        '''["The DataFrame's name", "The DataFrame's description", "What name corresponds to the dimension code: 'OBS_VALUE'?"]'''
+        
+        The metadata in your knowledgebase that corresponds most to the question is:
+        '''Full dataset - Indicators, source, destination and nature of expenditure on education'''
+        Very important: if you don't have relevant information in your knowledgebase, please let the user know.
+        
+2024-10-05 12:43:39 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-05 12:43:39 - LLM: The name of the dataflow is "Full dataset - Indicators, source, destination and nature of expenditure on education."
+2024-10-05 12:43:39 - Cost of this interaction: $0.000038
+2024-10-05 12:43:39 - Total price so far: $0.000038
+2024-10-05 12:43:39 - 127.0.0.1 - - [05/Oct/2024 12:43:39] "POST /chat HTTP/1.1" 200 -
+2024-10-05 12:43:51 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-10-05 12:43:51 - User: 
+        Please provide the answer to the following user question: 
+        REF_AERA
+        Please use the information from the source that was selected as the best source to answer the question!
+        This is the most similar question to the user question:
+        '''['REF_AREA', 'ASERV', "What is the English name of the code 'FRA' within the code list ID 'REF_AREA'?"]'''
+        
+        The metadata in your knowledgebase that corresponds most to the question is:
+        '''The name that corresponds to the dimension code: 'REF_AREA' is Reference area.'''
+        Very important: if you don't have relevant information in your knowledgebase, please let the user know.
+        
+2024-10-05 12:43:52 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-05 12:43:52 - LLM: The English name of the code 'FRA' within the code list ID 'REF_AREA' is "Reference area." If you have any further questions or need more information, feel free to ask!
+2024-10-05 12:43:52 - Cost of this interaction: $0.000048
+2024-10-05 12:43:52 - Total price so far: $0.000087
+2024-10-05 12:43:52 - 127.0.0.1 - - [05/Oct/2024 12:43:52] "POST /chat HTTP/1.1" 200 -
+2024-10-05 12:44:33 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-10-05 12:44:33 - User: 
+        Please provide the answer to the following user question: 
+        what does the dimension code 'REF_AERA' mean?
+        Please use the information from the source that was selected as the best source to answer the question!
+        This is the most similar question to the user question:
+        '''["What name corresponds to the dimension code: 'REF_AREA'?", "What is the dimension code for 'Reference area'?", "What is the English name of the code 'FRA' within the code list ID 'REF_AREA'?"]'''
+        
+        The metadata in your knowledgebase that corresponds most to the question is:
+        '''The name that corresponds to the dimension code: 'REF_AREA' is Reference area.'''
+        Very important: if you don't have relevant information in your knowledgebase, please let the user know.
+        
+2024-10-05 12:44:34 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-05 12:44:34 - LLM: The dimension code 'REF_AERA' corresponds to the name "Reference area."
+2024-10-05 12:44:34 - Cost of this interaction: $0.000038
+2024-10-05 12:44:34 - Total price so far: $0.000125
+2024-10-05 12:44:34 - 127.0.0.1 - - [05/Oct/2024 12:44:34] "POST /chat HTTP/1.1" 200 -
+2024-10-05 12:45:08 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-10-05 12:45:08 - User: 
+        Please provide the answer to the following user question: 
+        is the code 'REF_AERA' spelled right?
+        Please use the information from the source that was selected as the best source to answer the question!
+        This is the most similar question to the user question:
+        '''["What is the English name of the code 'FRA' within the code list ID 'REF_AREA'?", "What is the English name of the code 'AUS' within the code list ID 'REF_AREA'?", "What is the English name of the code 'ARG' within the code list ID 'REF_AREA'?"]'''
+        
+        The metadata in your knowledgebase that corresponds most to the question is:
+        '''The English name of the code 'FRA' within the code list ID 'REF_AREA' is 'France'.'''
+        Very important: if you don't have relevant information in your knowledgebase, please let the user know.
+        
+2024-10-05 12:45:08 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-05 12:45:08 - LLM: The code 'REF_AERA' is not spelled correctly. The correct code is 'REF_AREA'.
+2024-10-05 12:45:08 - Cost of this interaction: $0.000044
+2024-10-05 12:45:08 - Total price so far: $0.000168
+2024-10-05 12:45:08 - 127.0.0.1 - - [05/Oct/2024 12:45:08] "POST /chat HTTP/1.1" 200 -

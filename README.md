@@ -5,10 +5,12 @@ TODO:
 1. Solve importing the api key for the participants and not showing mine
     - in the chat_bot the api key should be imported in the app once and passed to the llm as well as the embedding
 2. SDMX parsing should be done using the sdmx1 lib (mapping is the main question to filter codes and resolve their names)
+3. Measure the setup time required => consider sending out an email to the participants asking them to do the setup ahead of time + letting them know that they'll receive an api code when the session starts.
 
 ----------
 
 # Setting Up Your Python Coding Environment
+[Using Git with Visual Studio Code (Official Beginner Tutorial](https://www.youtube.com/watch?v=i_23KUAEtUM&ab_channel=VisualStudioCode)
 
 ## Overview
 Recent changes in best practices for using Python have led to a shift from Anaconda to Visual Studio Code (VS Code) for Jupyter notebooks. This guide will help you set up your coding environment for a seamless experience during our workshop.
@@ -43,7 +45,7 @@ Recent changes in best practices for using Python have led to a shift from Anaco
 - In the terminal, navigate to the cloned repository folder.
 - Run the following command to create a virtual environment:
   ```bash
-  python -m venv env
+  python -m venv .env
   ```
   This will create a virtual environment named `env`.
 
@@ -67,12 +69,12 @@ Recent changes in best practices for using Python have led to a shift from Anaco
 ## Conclusion
 Following these steps will ensure you have a well-configured environment for coding, making it easier to manage dependencies and work on projects efficiently. Happy coding!
 
-Source: Conversation with Copilot, 05/10/2024
-(1) Running Jupyter notebook in VS Code, set up, getting started with python in VS Code. https://www.youtube.com/watch?v=9V7AoX0TvSM.
-(2) How to Install Jupyter Notebook in VSCode | Jupyter Notebook in Visual Studio Code (Easy). https://www.youtube.com/watch?v=xS5ZXOC4e6A.
-(3) Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough. https://www.youtube.com/watch?v=HW29067qVWk.
-(4) Jupyter Notebooks in VS Code - Visual Studio Code. https://code.visualstudio.com/docs/datascience/jupyter-notebooks.
-(5) Getting Started with Jupyter Notebooks in VS Code. https://learn.microsoft.com/en-us/shows/visual-studio-code/getting-started-with-jupyter-notebooks-in-vs-code.
-(6) How To Setup Python + Jupyter Notebook + VS Code on Windows. https://www.raillyhugo.com/blog/how-to-setup-python-environment.
-(7) GitHub - microsoft/vscode-jupyter: VS Code Jupyter extension. https://github.com/microsoft/vscode-jupyter.
-(8) en.wikipedia.org. https://en.wikipedia.org/wiki/Visual_Studio_Code.
+Sources:
+1. [Running Jupyter notebook in VS Code, set up, getting started with python in VS Code](https://www.youtube.com/watch?v=9V7AoX0TvSM)
+2. [How to Install Jupyter Notebook in VSCode | Jupyter Notebook in Visual Studio Code (Easy)](https://www.youtube.com/watch?v=xS5ZXOC4e6A)
+3. [Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough](https://www.youtube.com/watch?v=HW29067qVWk)
+4. [Jupyter Notebooks in VS Code - Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+5. [Getting Started with Jupyter Notebooks in VS Code](https://learn.microsoft.com/en-us/shows/visual-studio-code/getting-started-with-jupyter-notebooks-in-vs-code)
+6. [How To Setup Python + Jupyter Notebook + VS Code on Windows](https://www.raillyhugo.com/blog/how-to-setup-python-environment)
+7. [GitHub - microsoft/vscode-jupyter: VS Code Jupyter extension](https://github.com/microsoft/vscode-jupyter)
+8. [Wikipedia/Visual_Studio_Code](https://en.wikipedia.org/wiki/Visual_Studio_Code)
