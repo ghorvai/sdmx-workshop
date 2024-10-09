@@ -1,8 +1,11 @@
 # SDMX Experts Workshop Advanced Capacity-building in Amsterdam 
 
---------
+
 
 ## Setting Up Your Python Coding Environment
+### Disclaimer
+This is of course just a recommendation, we don't want anyone to feel pressured to change their trust configuration. But if you want to replicate what you'll see in **Module 2**, here's how to do it.
+  
 [Using Git with Visual Studio Code (Official Beginner Tutoria)](https://www.youtube.com/watch?v=i_23KUAEtUM&ab_channel=VisualStudioCode)
 
 ## Overview
@@ -13,8 +16,7 @@ Recent changes in best practices for using Python have led to a shift from Anaco
 2. **Free Access**: Anaconda is now only free for individuals and small organizations, making VS Code a more accessible option.
 3. **Integrated Development**: VS Code integrates well with Git and other tools, providing a comprehensive development environment.
 
-## Steps to Set Up Your Coding Environment
-This is of course just a recommendation, we don't want anyone to feel pressured to change their trust configuration. But if you want to replicate what you'll see in **Module 2**, here's how to do it.
+## Steps to Set Up Your Environment
 
 ### 1. Install Python, Git, and Visual Studio Code
 - **Python**: Download and install the latest version from the [official Python website](https://www.python.org/downloads/).
