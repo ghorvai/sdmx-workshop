@@ -1,7 +1,6 @@
 import chromadb
 from chromadb.utils import embedding_functions
 from chromadb.config import Settings
-import json
 from uuid import uuid4 as uuid
 import os
 from dotenv import load_dotenv
