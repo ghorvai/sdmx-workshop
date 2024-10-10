@@ -3,21 +3,20 @@ from chromadb.utils import embedding_functions
 from chromadb.config import Settings
 import json
 from uuid import uuid4 as uuid
+import os
+from dotenv import load_dotenv
 
 class ChromaDBWrapper:
     def __init__(  self
                  , flat_info_for_embedding
-                 , secrets_path='/Users/ghorvai/Projects/secrets/static_credentials.json'
+                 , openai_api_key=None
                  , collection_name="dataflow-meta-information-embeddings"):
         self.flat_info_for_embedding = flat_info_for_embedding
         self.collection_name = collection_name
         
-        # Read the JSON file
-        with open(secrets_path) as f:
-            secrets = json.load(f)
-        
-        # Get the API key from the secrets
-        self.openai_api_key = secrets['openaiKey']
+        load_dotenv()
+        if openai_api_key is None:
+            openai_api_key = os.getenv('OPENAI_API_KEY')
         
         # Initialize ChromaDB client
         self.client = chromadb.PersistentClient(settings=Settings(anonymized_telemetry=False), path='.chroma.db')
@@ -25,7 +24,7 @@ class ChromaDBWrapper:
         # Set up embedding function
         self.embedding_function = embedding_functions.OpenAIEmbeddingFunction(
             model_name='text-embedding-3-small',
-            api_key=self.openai_api_key
+            api_key=openai_api_key
         )
         
         # Create or get the collection
@@ -72,7 +71,7 @@ if __name__ == "__main__":
     ]
 
     # Create an instance of ChromaDBWrapper
-    chroma_wrapper = ChromaDBWrapper(flat_info_for_embedding, '/path_to/secrets.json')
+    chroma_wrapper = ChromaDBWrapper(flat_info_for_embedding)
 
     # Query the collection
     query_text = 'What is the code for the lower secondary education?'

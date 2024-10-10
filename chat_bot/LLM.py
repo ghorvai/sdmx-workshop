@@ -3,13 +3,13 @@ import json
 import logging
 from datetime import datetime
 from functools import wraps
+from dotenv import load_dotenv
+import os
 
-# Read the JSON file
-with open('/Users/ghorvai/Projects/secrets/static_credentials.json') as f:
-    secrets = json.load(f)
+load_dotenv()
 
 # Instantiate the OpenAI client
-client = OpenAI(api_key=secrets['openaiKey'])
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 # Set up logging
 logging.basicConfig(filename='llm_interactions.log', level=logging.INFO,
