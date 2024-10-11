@@ -4,3 +4,5 @@
 !.streamlit
 !.dockerignore
 test.ipynb
+llm_interactions.log
+!.env-example
