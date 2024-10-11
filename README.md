@@ -72,6 +72,14 @@ This is of course just a recommendation, we don't want anyone to feel pressured 
   pip install -r requirements.txt
   ```
 
+#### 7. Set Up Environment Variables
+
+- Set up `.env` file in the **project root** and also in the `chat_bot` folder by copying the `.env.example` files and renaming them to `.env`.
+- Fill in the `OPENAI_API_KEY` in the `.env` file in the `chat_bot` folder like so:
+  ```bash
+  OPENAI_API_KEY=your_open_ai_api_key_here
+  ```
+
 ### Using the environment for the Jupyter notebooks
 
 - In VSCode, go to the Explorer view by clicking on the Explorer icon in the Activity Bar on the left side of the window.
