@@ -75,7 +75,7 @@ This is of course just a recommendation, we don't want anyone to feel pressured 
 #### 7. Set Up Environment Variables
 
 - Set up `.env` file in the **project root** and also in the `chat_bot` folder by copying the `.env.example` files and renaming them to `.env`.
-- Fill in the `OPENAI_API_KEY` in the `.env` file in the `chat_bot` folder like so:
+- Fill in the `OPENAI_API_KEY` in both of these `.env` files like so:
   ```bash
   OPENAI_API_KEY=your_open_ai_api_key_here
   ```
@@ -89,3 +89,31 @@ This is of course just a recommendation, we don't want anyone to feel pressured 
   ![Download from GitHub](images/select_kernel.jpg)
   - Select `★ .venv` (likely the first entry) from the list.
 - You can now run the notebook cells. 🎉
+
+## Chatbot
+
+### Starting the Chatbot
+
+- To run the chatbot, navigate to the `chat_bot` folder in the terminal.
+- Run the following command:
+  ```bash
+  python app.py
+  ```
+- The server is now started and you should see a message like
+```bash
+Starting the app... on http://127.0.0.1:5000/
+ * Serving Flask app 'app'
+ * Debug mode: on
+Starting the app... on http://127.0.0.1:5000/
+```
+
+### Using the Chatbot
+
+- Start the chatbot server as described above.
+- Open a web browser and go to [`http://127.0.0.1:5000/`](http://127.0.0.1:5000/) to interact with the chatbot.
+- Select a **category** and a **dataflow** from dropdown menus on the left side, then click the `Initialize Bot` button.
+![Select category and dataflow](images/chatbot_setup.jpg)
+- Please be patient, as the bot may take a few seconds to respond with an initial message like `Bot initialized with dataflow: OECD...`.
+![Wait for init](images/chatbot_init.jpg)
+- You can now ask questions related to the selected dataflow.
+![Send message](images/chatbot_message.jpg)
