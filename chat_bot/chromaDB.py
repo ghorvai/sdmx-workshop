@@ -57,7 +57,7 @@ class ChromaDBWrapper:
         self.collection.add(**to_vectorize)
         print(f"{len(ids)} embeddings created from documents were and added to the vector store.")
 
-    def query(self, query_text, n_results=1):
+    def query(self, query_text, n_results=3):
         result_sets = self.collection.query(query_texts=[query_text], n_results=n_results)
         return result_sets
 

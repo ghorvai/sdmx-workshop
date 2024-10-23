@@ -30,7 +30,6 @@ Dataflow:
         _get_code_list_urns(): Retrieves URNs (Uniform Resource Names) for code lists
         _get_code_list_id_urns(): Retrieves ID URNs for code lists
         _parse_content_constraints(): Parses content constraints from the dataflow
-        _get_year_range(): Extracts year range from a time period object
 
 Usage:
     1. Create a Dataflow instance with the SDMX dataflow URL
@@ -146,14 +145,16 @@ class Dataflow:
             if value_type == 'values':
                 attributes[attr_id] = item[value_type]
             elif value_type == 'timeRange':
-                attributes[attr_id] = self._get_year_range(item[value_type])
+                # for simplicity's sake, let's not deal with time for now
+                # attributes[attr_id] = self._get_year_range(item[value_type])
+                continue
             else:
                 raise ValueError(f'Unknown value type: {value_type}')
         return attributes
 
-    @staticmethod
-    def _get_year_range(time_period_obj: dict[str, dict[str, str]]) -> list[int]:
-        """Extract year range from a time period object."""
-        start_year = datetime.fromisoformat(time_period_obj['startPeriod']['period']).year
-        end_year = datetime.fromisoformat(time_period_obj['endPeriod']['period']).year
-        return [start_year, end_year]
+    # @staticmethod
+    # def _get_year_range(time_period_obj: dict[str, dict[str, str]]) -> list[int]:
+    #     """Extract year range from a time period object."""
+    #     start_year = datetime.fromisoformat(time_period_obj['startPeriod']['period']).year
+    #     end_year = datetime.fromisoformat(time_period_obj['endPeriod']['period']).year
+    #     return [start_year, end_year]
