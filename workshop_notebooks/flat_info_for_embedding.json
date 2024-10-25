@@ -1726,37 +1726,5 @@
     [
         "What is the code for 'US dollars per student, PPP converted' within the code list ID 'UNIT_MEASURE'?",
         "The English name of the code 'USD_PPP_ST' within the code list ID 'UNIT_MEASURE' is 'US dollars per student, PPP converted'."
-    ],
-    [
-        1995,
-        "The English name of the code '1995' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
-    ],
-    [
-        "No codelist found",
-        "The English name of the code '1995' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
-    ],
-    [
-        "What is the English name of the code '1995' within the code list ID 'TIME_PERIOD'?",
-        "The English name of the code '1995' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
-    ],
-    [
-        "What is the code for 'No codelist found' within the code list ID 'TIME_PERIOD'?",
-        "The English name of the code '1995' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
-    ],
-    [
-        2021,
-        "The English name of the code '2021' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
-    ],
-    [
-        "No codelist found",
-        "The English name of the code '2021' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
-    ],
-    [
-        "What is the English name of the code '2021' within the code list ID 'TIME_PERIOD'?",
-        "The English name of the code '2021' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
-    ],
-    [
-        "What is the code for 'No codelist found' within the code list ID 'TIME_PERIOD'?",
-        "The English name of the code '2021' within the code list ID 'TIME_PERIOD' is 'No codelist found'."
     ]
 ]
