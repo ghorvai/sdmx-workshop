@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, jsonify
-import grounded_llm  # Uncomment this when the LLM is ready
+import grounded_llm
 
 app = Flask(__name__)
 
-# Category and dataflow data (sample data)
+# Here are some example categories to make things simpler, but in a real application we would also have to read them from SDMX
 categories_data = {
     'IT Indicators': ['OECD.EDU.IMEP:DSD_EAG_IT@DF_EAG_IT_AGE(1.1)', 'OECD.EDU.IMEP:DSD_EAG_IT@DF_EAG_IT_ALL(1.1)'],
     'LSO Earnings and Employment': ['OECD.EDU.IMEP:DSD_EAG_LSO_EA@DF_LSO_EARN_DISTR_MEDIAN(1.0)', 'OECD.EDU.IMEP:DSD_EAG_LSO_EA@DF_LSO_EARN_REL_BEL(1.0)'],
@@ -32,9 +32,7 @@ def initialize_bot():
     data = request.json
     dataflow = data.get('dataflow')
 
-    # Simulate bot initialization
-    bot_instance = grounded_llm.Bot(dataflow)  # Uncomment this when LLM is available
-    #bot_instance = f"Initialized Bot with {dataflow}"  # Temporary message for testing
+    bot_instance = grounded_llm.Bot(dataflow) 
 
     return jsonify({'status': 'success', 'message': f'Bot initialized with dataflow: {dataflow}'})
 

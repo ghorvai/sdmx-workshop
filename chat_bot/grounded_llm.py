@@ -41,8 +41,11 @@ class Bot:
         return f'https://sdmx.oecd.org/public/rest/dataflow/{agency}/{id_part}/{version}?references=all'
 
     def answer_question(self, user_question):
+        # Re-phrase the user question to improve the semantic search results
+        rephrased_question = self._rephrase_user_question(user_question)
+
         # Get the 3 most relevant entries from the vector store
-        result_sets = self.chroma_wrapper.query(user_question, n_results=3)
+        result_sets = self.chroma_wrapper.query(rephrased_question, n_results=3)
 
         # Generate the answer to the user question
         persona = """You are a helpful data analyst working for OECD."""
@@ -63,3 +66,36 @@ class Bot:
 
         ans, cost = LLM.model(persona, prompt)
         return ans
+    
+
+    def _rephrase_user_question(self, user_question):
+        """
+        Before performing the semantic search it is wise to rephrase the user question to improve the search results.
+        The idea is to provide consistency in the questions asked instead of having to store all possible ways of asking the same question.
+        """
+
+        persona = """You are a helpful data analyst working for OECD."""
+        prompt = f"""
+        Your task is to rephrase the user question to improve the search results.
+        
+        Please follow the steps above when rephrasing user questions into a simple and uniform format:
+            1. Identify the Core Inquiry: Determine the main point of the question (e.g., dataset name, column presence, code meaning).
+            2. Start with a Question Word: Use "What" or "Is" to begin the question.
+            3. Focus on the Subject: Clearly state the subject of the question (e.g., dataset, column, code).
+
+        Make sure to:
+            - Use Simple Language: Avoid jargon and complex terms.
+            - Be Specific: Provide details that help narrow down the search.
+        
+        In order to further decrease the complexity of the vocabulary used in the user questions, the following rules should be applied:
+            - any synonyms to the data source in question (e.g. data, DataFlow, Data Source, Table, Data Set, Data Flow etc.) are replaced with "Table"
+            - any synonyms of a Column are replaced with "Column" (e.g. "Variable", "Indicator", "Field", "Attribute", "Measure", "Dimension", "Concept", etc.)
+            - any synonyms of Category are replaced with "Category" (e.g. "Code", "Label", "Code Value", etc.). Category is used to refer to the discrete values of a column. 
+
+        Please rephrase the following user question:
+        {user_question}
+        """
+
+        rephrased_question, cost = LLM.model(persona, prompt)
+
+        return rephrased_question
